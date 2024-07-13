@@ -15,10 +15,7 @@
 <body>
     <pre>
         <?php
-        require_once('User.php');
-        include('debug.php');
-
-
+        include('src/index.php');
         dd();
 
         ?>
