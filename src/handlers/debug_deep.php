@@ -1,5 +1,9 @@
 <?php
 
+namespace App\Handlers;
+
+use ReflectionObject;
+
 function varDump($var, $depth = 0, $key = null)
 {
     $indent = str_repeat('    ', $depth);

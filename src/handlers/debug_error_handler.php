@@ -1,4 +1,7 @@
 <?php
+
+namespace App\Handlers;
+
 function customErrorHandler($errno, $errstr, $errfile, $errline)
 {
     $GLOBALS['warnings'][] = [

@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Handlers;
+
 function displayError($errorData, $fullData)
 {
     echo "<span class='dd-type dd-error'>error</span>";

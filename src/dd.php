@@ -1,10 +1,9 @@
 <?php
 
-include('handlers/debug_error.php');
-include('handlers/debug_warning.php');
-include('handlers/debug_error_handler.php');
-include('handlers/debug_deep.php');
-include('assets/index.php');
+namespace App;
+
+use function App\Handlers\displayWarning;
+use function App\Handlers\varDump;
 
 set_error_handler('customErrorHandler');
 

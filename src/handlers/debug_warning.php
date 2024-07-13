@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Handlers;
+
 function displayWarning($warningData)
 {
     echo "<div class='dd-item'>";
