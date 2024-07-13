@@ -1,4 +1,4 @@
-<?
+<?php
 
 function varDump($var, $depth = 0, $key = null)
 {
