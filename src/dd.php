@@ -1,9 +1,9 @@
 <?php
 
-namespace App;
+namespace Chris\Src;
 
-use function App\Handlers\displayWarning;
-use function App\Handlers\varDump;
+use function Chris\Src\Handlers\displayWarning;
+use function Chris\Src\Handlers\varDump;
 
 set_error_handler('customErrorHandler');
 

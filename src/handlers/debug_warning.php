@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Handlers;
+namespace Chris\Src\Handlers;
 
 function displayWarning($warningData)
 {
