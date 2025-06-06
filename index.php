@@ -1,8 +1,3 @@
-<?
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,7 +11,8 @@
     <pre>
         <?php
         include('src/index.php');
-        dd();
+        $data = ['foo' => 'bar', 'baz' => [1, 2, 3]];
+        dd($data);
 
         ?>
     </pre>
