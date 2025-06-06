@@ -12,7 +12,7 @@ function dd(...$vars)
     ob_start();
 
     echo '<style>';
-    echo file_get_contents("./assets/debug.css");
+    echo file_get_contents(__DIR__ . "/assets/debug.css");
     echo '</style>';
     echo '<div class="dd-container">';
 
